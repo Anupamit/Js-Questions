@@ -351,3 +351,65 @@ const myList = [
   ["Pizza", 8]
 ];
 ```
+## Q.59 Write Reusable JavaScript with Functions ?
+```js
+function reusableFunction(){
+  console.log('Hi World')
+}
+reusableFunction()
+```
+## Q.60 Passing Values to Functions with Arguments ?
+```js
+function functionWithArgs(a,b){
+  console.log(a+b)
+}
+functionWithArgs(1,2)
+functionWithArgs(7,9)
+```
+## Q.61 Return a Value from a Function with Return ?
+```js
+function timesFive(num) {
+  return num * 5;
+}
+
+const answer = timesFive(5);
+```
+## Q.62 Global Scope and Functions ?
+```js
+    // Declare the myGlobal variable below this line
+
+const myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+```
+## Q.63 Local Scope and Functions ?
+```js
+function myLocalScope() {
+  // Only change code below this line
+  var myVar;
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+```
+## Q.64  Global vs. Local Scope in Functions ?
+```js
