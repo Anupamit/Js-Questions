@@ -1,6 +1,3 @@
-# Javascript Questions
-
-
 # Array
 
 ## Q. Function to add all elements of an array?
