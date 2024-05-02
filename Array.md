@@ -1,5 +1,5 @@
 # Array
-##Q. Array Element Replacement and Commenting Exercise
+## Q. Array Element Replacement and Commenting Exercise
 ```js
 let myArray = ["a", "b", "c", "d"];
 
@@ -9,7 +9,7 @@ myArray[1] = "sahil";
 // Comment: Print the modified array to the console
 console.log(myArray);
 ```
-##Q. Array Modification with unshift() and push() Functions ?
+## Q. Array Modification with unshift() and push() Functions ?
 ```js
 function mixedNumbers(arr) {
   // Comment: Add elements "I", 2, "three" to the beginning of the array
