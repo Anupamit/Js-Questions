@@ -1,4 +1,29 @@
 # Array
+##Q. Array Element Replacement and Commenting Exercise
+```js
+let myArray = ["a", "b", "c", "d"];
+
+// Correction: Replaces the element at index 1 with "sahil"
+myArray[1] = "sahil";
+
+// Comment: Print the modified array to the console
+console.log(myArray);
+```
+##Q. Array Modification with unshift() and push() Functions ?
+```js
+function mixedNumbers(arr) {
+  // Comment: Add elements "I", 2, "three" to the beginning of the array
+  arr.unshift("I", 2, "three");
+  // Comment: Add elements 7, "VIII", 9 to the end of the array
+  arr.push(7, "VIII", 9);
+
+  // Comment: Return the modified array
+  return arr;
+}
+
+// Comment: Call the mixedNumbers function with the initial array ['IV', 5, 'six'] and print the result
+console.log(mixedNumbers(['IV', 5, 'six']));
+```
 
 ## Q. Function to add all elements of an array?
 ```js
