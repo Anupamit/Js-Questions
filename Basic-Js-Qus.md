@@ -341,7 +341,7 @@ myArray.shift();
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
 ```
-## Q.58 Shopping List ?
+## Q.58 What is the structure and content of the 'myList' constant array in JavaScript ?
 ```js
 const myList = [
   ["Juice", 1],
@@ -413,3 +413,11 @@ console.log('outside myLocalScope', myVar);
 ```
 ## Q.64  Global vs. Local Scope in Functions ?
 ```js
+var globalVar = 10;
+
+function myFunction() {
+    console.log(globalVar); // Accessible within the function
+}
+
+myFunction(); // Output: 10
+```
